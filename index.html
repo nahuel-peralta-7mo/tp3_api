@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP03 - API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TP03 - API</h1>
+    <!-- EJERCICIO 2 -->
+    <section>
+        <h2>Ejercicio 2 - Usuarios en pantalla</h2>
+        <ul id="listaUsuarios"></ul>
+    </section>
+    <!-- EJERCICIO 3 -->
+    <section>
+        <h2>Ejercicio 3 - Buscar usuario</h2>
+        <input type="text" id="buscador" placeholder="Buscar usuario...">
+        <ul id="resultadoBusqueda"></ul>
+    </section>
+    <!-- EJERCICIO 4 -->
+    <section>
+        <h2>Ejercicio 4 - Un solo usuario</h2>
+        <div id="usuarioUno"></div>
+    </section>
+    <!-- EJERCICIO 5 -->
+    <section>
+        <h2>Ejercicio 5 - Crear usuario</h2>
+        <input type="text" id="nombre" placeholder="Nombre">
+        <br>
+        <input type="email" id="email" placeholder="Email">
+        <br>
+        <button onclick="crearUsuario()">Crear Usuario</button>
+        <p id="mensaje"></p>
+    </section>
+    <script src="java.js"></script>
+</body>
+</html>
